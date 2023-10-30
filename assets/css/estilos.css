@@ -1,0 +1,244 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+}
+
+
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+#nav {
+    background-color: rgb(41, 0, 80);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /*desgruda*/
+    font-size: 30px;
+}
+
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+
+#nav ul.right li {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a {
+    margin: 10px
+}
+
+.center {
+    text-align: center;
+
+}
+
+.col- {
+    float: left;
+}
+
+/*Grid com 12 colunas*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%; float: left;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.66%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-7 {
+    width: 58.31%
+}
+
+.col-8 {
+    width: 66.66%
+}
+
+.col-9 {
+    width: 74.97%
+}
+
+.col-10 {
+    width: 83.3%
+}
+
+.col-11 {
+    width: 91.63%
+}
+
+.col-12 {
+    width: 100%
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.video-wrapper {
+    border: 2px solid #000;
+    width: auto;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+}
+
+button {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    fill: none;
+    background-color: transparent;
+    border: #ffffff, 6px;
+    margin: 20px;
+
+}
+.button{
+    color: rgb(255, 255, 255);
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.cards{
+    background-color: #1a012e;
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.cards .col-3{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-bottom: 200px;
+    margin: 20px;
+    box-shadow: inset;
+    opacity: 0.5;
+}
+.cards .col-3 .img-col{
+    width: 250px;
+}
+bold{
+    font-weight: bolder;
+}
+div.cards:hover{
+    opacity: 1.0;
+    size: 110%;
+    
+}
+.patrocinadores{
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+   text-align: center;
+}
+.img-patrocinios {
+    width: 200px;
+
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.horarios-1{
+    display: none;
+}
+    
+.container {
+    width: 1140px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.texto {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.cards .col-3 .img-col1{
+    width: 250px;
+    height: 170px;
+}
+
+.cards .col-3 .img-col3{
+    width: 170px;
+    height: 170px;
+}

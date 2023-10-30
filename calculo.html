@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sci">
+    <meta name="keywords" content="html, semana-academica, js, css">
+    <meta name="author" content="Helena Munaro, Gabriel Carlos">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/estilosformulário.css">
+    <script src="assets/java/myscript.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>VIII SCI</title>
+</head>
+<body>
+
+<h2>Formulário JavaScript</h2>
+
+<form id="Form">
+    <label for="">Nome:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <button type="button" onclick="submitForm()">Enviar</button>
+</form>
+
+<script>
+function submitForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+
+    // Você pode fazer o que quiser com os dados do formulário aqui, por exemplo, enviar para um servidor ou exibi-los na página.
+    console.log("Nome: " + name);
+    console.log("Email: " + email);
+    console.log("Mensagem: " + message);
+
+    // Limpar os campos do formulário
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+}
+</script>
+
+</body>
+</html>
+</body>

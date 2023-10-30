@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sci">
+    <meta name="keywords" content="html, semana-academica, js, css">
+    <meta name="author" content="Helena Munaro, Gabriel Carlos">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>VIII SCI</title>
+</head>
+
+<body>
+
+    <div id="nav">
+        <div class="container clearfix">
+            <ul id="menu">
+                <li class="active">
+
+                </li>
+                <li><a href="Formulário"></a></li>
+                <li><a href="Jogos"></a></li>
+                <li><a href="Informações"></a></li>
+                <li><a href="calculo.html"> Oi</a></li>
+            </ul>
+            <ul class="right">
+
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="video-wrapper">
+            <video playsinline autoplay muted loop poster="cake.jpg">
+                <source src="assets/img/fundo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="header">
+                <h1>Semana Academica de Computação e Informática</h1>
+                </br>
+                <p>23/10 - 25/10</p>
+                <a href="formulario.html"><button class="inscricao">
+                        <h3 class="button">Se Inscreva Aqui</h3>
+                    </button></a>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="col-2"></div>
+            <div class="col-3" class="Jogos">
+                <img src="assets/img/kombat.avif" class="img-col">
+                <h2>
+                    <bold></br>Mortal Kombat 1</bold>
+                </h2>
+                <p><br>A história do game foca no primeiro torneio milenar e na derrubada de Shang Tsung. Aqui,
+                    as lutas são separadas em três rounds e o jogador com duas vitórias tem o poder de vencer seu
+                    adversário com o famoso Fatality,
+                    golpe finalizador super violento usado no fim da luta. </p>
+                </br>
+                <p>
+                    <bold>Modalidade:</bold> Presencial
+                </p>
+            </div>
+            <div class="col-3" class="Jogos">
+                <img src="assets/img/valoras.jpg" class="img-col1">
+                <h2>
+                    <bold></br>Valorant</bold>
+                </h2>
+                <p><br> Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa
+                    desenvolvido e publicado pela Riot Games. É o primeiro jogo do gênero desenvolvido pela empresa
+                    sendo anunciado pela primeira vez com o codinome Project A, em um evento de
+                    comemoração de 10 anos de LoL. </p>
+                </br>
+                <p>
+                    <bold>Modalidade:</bold> Remoto
+                </p>
+            </div>
+            <div class="col-3" class="Jogos">
+                <img src="assets/img/rocketleague.jpg" class="img-col3">
+                <h2>
+                    <bold></br>Rocket league</bold>
+                </h2>
+                <p><br> Rocket League é um jogo eletrônico de futebol em veículos desenvolvido e publicado pela Psyonix. Foi
+                    lançado pela primeira vez para Microsoft Windows e PlayStation 4 em julho de 2015, com as portes
+                    para o Xbox One, MacOS, Linux e Nintendo Switch</p>
+                </br>
+                <p>
+                    <bold>Modalidade:</bold> Remoto
+                </p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="patrocinadores" :hover>
+            <h1>Patrocinadores</h1>
+            <div class="col-4">
+                <img src="assets/img/dell.png" class="img-patrocinios">
+            </div>
+            <div class="col-4">
+                <img src="assets/img/lenovo.png" class="img-patrocinios">
+            </div>
+            <div class="col-4">
+                <img src="assets/img/samsung.webp" class="img-patrocinios">
+            </div>
+        </div>
+        <div class="programacao">
+            <button type="button" onclick="show()" id="btnID">
+                <div class="segunda-feira">Segunda-feira
+            </button>
+            <div class="horarios-1" id="horarios">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsa iste iure cum doloremque atque, architecto ipsum fuga,
+                    culpa eum sex aut delectus ab quae nihil corporis quod voluptatem asperiores.</p>
+                <script>
+                    function show() {
+
+                        document.getElementById('horarios')
+                            .style.display = "block";
+
+                    }
+                </script>
+            </div>
+            <button type="button" onclick="show2()" id="btnID">
+                <div class="segunda-feira">Terça-feira
+            </button>
+            <div class="horarios-1" id="horarios2">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsa iste iure cum doloremque atque, architecto ipsum fuga,
+                    culpa eum sex aut delectus ab quae nihil corporis quod voluptatem asperiores.</p>
+                <script>
+                    function show2() {
+
+                        document.getElementById('horarios2')
+                            .style.display = "block";
+
+                    }
+                </script>
+            </div>
+            <button type="button" onclick="show3()" id="btnID">
+                <div class="segunda-feira">quarta-feira
+            </button>
+            <div class="horarios-1" id="horarios3">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsa iste iure cum doloremque atque, architecto ipsum fuga,
+                    culpa eum sex aut delectus ab quae nihil corporis quod voluptatem asperiores.</p>
+                <script>
+                    function show3() {
+
+                        document.getElementById('horarios3')
+                            .style.display = "block";
+
+                    }
+                </script>
+            </div>
+        </div>
+
+</body>
