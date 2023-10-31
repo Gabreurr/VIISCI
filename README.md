@@ -1,2 +1,1 @@
-# VIISCI
-https://prod.liveshare.vsengsaas.visualstudio.com/join?F2D74198DA77BC2047E8265252CA364F6FE0
+https://prod.liveshare.vsengsaas.visualstudio.com/join?D6F9D2D6012FB6788FBF580B1D6552F83E3D
