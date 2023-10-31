@@ -15,41 +15,84 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <title>VIII SCI</title>
 </head>
+
 <body>
+    <fieldset style="container:clearfix;">
+        <center>
+            <h2>Cálculadora de Orçamento para o Evento SCI</h2>
+        </center>
 
-<h2>Formulário JavaScript</h2>
+        <form id="meuForm" action="http://jkorpela.fi/cgi-bin/echo.cgi">
+            <div class="container clearfix">
+                <div id="dados">
+                    <div id="col-12">
+                        <h1>Dados do Evento</h1>
 
-<form id="Form">
-    <label for="">Nome:</label>
-    <input type="text" id="name" name="name"><br><br>
+                        <legend>Informações:</legend>
+                        Numero de Participantes <input autofocus id="participantes" name="participantes"
+                            type="number"><br>
+                    </div>
+                </div>
+                <div id="custos">
+                    <div id="col-3">
+                        <h1>Custo dos Produtos Alimentícios</h1>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"><br><br>
+                        <li><b>Produto</b></li>
+                        <li><b>Café</b></li>
+                        <li><b>Bolo</b></li>
+                        <li><b>Cachorro-Quente</b></li>
+                    </div>
+                    <div id="col-3">
+                        <b>Quantidade de Participantes</b>
 
-    <label for="message">Mensagem:</label>
-    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                        <input autofocus id="alimentos" name="alimentos" type="text">
+                        <input autofocus id="alimentos2" name="alimentos2" type="text">
+                        <input autofocus id="alimentos3" name="alimentos3" type="text">
+                    </div>
+                    <div id="col-3">
+                        <b>Preço por Unidade</b>
 
-    <button type="button" onclick="submitForm()">Enviar</button>
-</form>
+                        <input autofocus id="Unidade" name="Unidade" type="text">
+                        <input autofocus id="Unidade2" name="Unidade2" type="text">
+                        <input autofocus id="Unidade3" name="Unidade3" type="text">
+                    </div>
+                    <div id="col-3">
+                        <b>Total</b>
+                    </div>
+                </div>
+                <div id="itens">
+                    <div id="col-3">
+                        <h1><b>Custos Itens Divulgação</b></h1>
 
-<script>
-function submitForm() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
+                        <li><b>Itens</b></li>
+                        <li><b>Banner</b></li>
+                        <li><b>Crachá</b></li>
+                        <li><b>Camiseta</b></li>
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
 
-    // Você pode fazer o que quiser com os dados do formulário aqui, por exemplo, enviar para um servidor ou exibi-los na página.
-    console.log("Nome: " + name);
-    console.log("Email: " + email);
-    console.log("Mensagem: " + message);
+        <script>
+            function submitForm() {
+                var participantes = document.getElementById("participantes").value;
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message").value;
 
-    // Limpar os campos do formulário
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
-}
-</script>
+                // Você pode fazer o que quiser com os dados do formulário aqui, por exemplo, enviar para um servidor ou exibi-los na página.
+                console.log("Nome: " + name);
+                console.log("Email: " + email);
+                console.log("Mensagem: " + message);
 
+                // Limpar os campos do formulário
+                document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("message").value = "";
+            }
+        </script>
+    </fieldset>
 </body>
+
 </html>
 </body>
