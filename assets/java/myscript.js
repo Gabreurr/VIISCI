@@ -59,12 +59,16 @@ function validarEmail() {
 
   function recuperarDados() {
     var inscritos = localStorage.getItem('nome1');
+    var numero = 1
     if (inscritos) {
-      alert('Inscrito recuperado do Local Storage: ' + inscritos);
+      var inscritos = 0
+      alert('Inscrito recuperado do Local Storage: Total de inscritos:' + numero);
     } else {
       alert('Nenhum Inscrito encontrado no Local Storage.');
     }
   }
+
+
 
 
 
