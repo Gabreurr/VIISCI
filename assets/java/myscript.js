@@ -34,6 +34,38 @@ formulario.addEventListener("submit", function (event) {
     }
 });
 
+function validarEmail() {
+    // Obtém o valor do campo de e-mail
+    var email = document.getElementById('email').value;
+
+    // Expressão regular para validar um endereço de e-mail
+    var regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+    // Testa o endereço de e-mail com a expressão regular
+    if (regex.test(email)) {
+      // E-mail válido
+      document.getElementById('emailErro').textContent = '';
+    } else {
+      // E-mail inválido
+      document.getElementById('emailErro').textContent = 'E-mail inválido';
+    }
+  }
+
+  function salvarDados() {
+    var inscritos = document.getElementById('nome1').value;
+    localStorage.setItem('nome1', nome);
+    alert('Inscrito');
+  }
+
+  function recuperarDados() {
+    var nome = localStorage.getItem('nome1');
+    if (nome1) {
+      alert('Inscrito recuperado do Local Storage: ' + nome1);
+    } else {
+      alert('Nenhum Inscrito encontrado no Local Storage.');
+    }
+  }
+
 
 
 

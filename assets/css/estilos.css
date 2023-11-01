@@ -242,7 +242,7 @@ div.cards:hover{
     width: 170px;
     height: 170px;
 }
-<<<<<<< HEAD
+
 
 .glow-on-hover {
     width: 220px;
@@ -303,8 +303,10 @@ div.cards:hover{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-div.fotos{
+div.footer{
     background-color: #1a012e;
+    list-style: none;
 }
-=======
->>>>>>> origin/main
+img.footer{
+    width: 100px;
+}

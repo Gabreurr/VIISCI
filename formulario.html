@@ -33,7 +33,7 @@
 
                             <div class="input-container">
                                 <label for="Nome">Nome</label>
-                                <input type="text" name="nome" id="nome" placeholder="Nome do Aluno" required autofocus>
+                                <input type="text" name="nome1" id="nome1" placeholder="Nome do Aluno" required autofocus>
                             </div>
 
                             <div class="input-container">
@@ -50,7 +50,9 @@
 
                             <div class="input-container">
                                 <label for="email">Email</label>
-                                <input type="text" name="email" id="email" placeholder="Seu Email" required>
+                                <input type="text" name="email" id="email" onkeyup="validarEmail()"
+                                    placeholder="Seu Email" required>
+                                <span id="emailErro" style="color: red;"></span>
                             </div>
 
                             <div class="input-container">
@@ -59,12 +61,14 @@
                             </div>
                         </fieldset>
                         <script>
-                            
-                        function oi(){}
+
+                            function enviarFormulario() { }
                         </script>
                         <div class="actions">
                             <button type="submit">Cadastrar</button>
                             <button type="reset">Limpar</button>
+                            <button onclick="salvarDados()">Salvar Dados</button>
+                            <button onclick="recuperarDados()">Recuperar Dados</button>
                         </div>
                     </form>
                 </section>
