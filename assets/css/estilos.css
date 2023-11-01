@@ -303,7 +303,7 @@ div.cards:hover{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-div.footer{
+.footer{
     background-color: #1a012e;
     list-style: none;
 }
