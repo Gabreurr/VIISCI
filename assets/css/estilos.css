@@ -304,9 +304,22 @@ div.cards:hover{
     100% { background-position: 0 0; }
 }
 .footer{
-    background-color: #1a012e;
+    background-color: #5a3c74;
     list-style: none;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 img.footer{
     width: 100px;
+}
+.fotos{
+    align-items:center;
+    text-align: center;
 }

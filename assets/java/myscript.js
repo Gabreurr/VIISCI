@@ -53,14 +53,14 @@ function validarEmail() {
 
   function salvarDados() {
     var inscritos = document.getElementById('nome1').value;
-    localStorage.setItem('nome1', nome);
+    localStorage.setItem('nome1', inscritos);
     alert('Inscrito');
   }
 
   function recuperarDados() {
-    var nome = localStorage.getItem('nome1');
-    if (nome1) {
-      alert('Inscrito recuperado do Local Storage: ' + nome1);
+    var inscritos = localStorage.getItem('nome1');
+    if (inscritos) {
+      alert('Inscrito recuperado do Local Storage: ' + inscritos);
     } else {
       alert('Nenhum Inscrito encontrado no Local Storage.');
     }

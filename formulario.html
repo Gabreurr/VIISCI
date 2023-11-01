@@ -44,7 +44,7 @@
 
                             <div class="input-container">
                                 <label for="cpf">CPF:</label>
-                                <input type="number" id="cpf" name="cpf" required>
+                                <input type="number" id="cpf" placeholder="XXX.XXX.XXX-XX"name="cpf" required>
 
                             </div>
 
@@ -60,14 +60,9 @@
                                 <input type="text" name="turma" id="turma" placeholder="Sua Turma" required>
                             </div>
                         </fieldset>
-                        <script>
-
-                            function enviarFormulario() { }
-                        </script>
                         <div class="actions">
-                            <button type="submit">Cadastrar</button>
+                            <button type="submit" onclick="salvarDados()">Cadastrar</button>
                             <button type="reset">Limpar</button>
-                            <button onclick="salvarDados()">Salvar Dados</button>
                             <button onclick="recuperarDados()">Recuperar Dados</button>
                         </div>
                     </form>
